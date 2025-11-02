@@ -17,8 +17,8 @@
 /* HTML and Body Styles */
 
 html {background-color: hsl(27, 72%, 72%);
-
 }
+
 body {
    color:rgb (91, 91, 91);
    background-color: ivory;
@@ -28,7 +28,7 @@ body {
 /* Heading Styles */
 
 h1 {
-   color:white;
+   color: white;
    background-color: rgb(222, 128, 60);
 
 }
