@@ -53,6 +53,15 @@ article.coach_bio h2 {
 
 /* Blockquote Styles */
 
+aside.blockquote {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 0.95em;
+  color: rgb(222, 128, 60);
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px;
+  quotes: "\201C""\201D";
+}
+
 
 
 
