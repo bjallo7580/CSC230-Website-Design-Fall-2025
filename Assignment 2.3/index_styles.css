@@ -7,14 +7,13 @@
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 2
-   Tutorial Case
+   Personal project
    
-   TSS Typographic Style Sheet
+   My Index Page Style Sheet
    Author: Bubacarr Jallow
-   Date:   11/2/2025
+   Date:   11/3/2025
    
-   Filename: tss_styles.css
+   Filename: index_styles.css
 
 */
 
@@ -30,7 +29,10 @@ body {
    color:rgb (91, 91, 91);
    background-color: ivory;
 }
-
+body {
+  max-width: 960px; 
+  margin: 0 auto;
+}
 
 /* Heading Styles */
 h1, h2 {
@@ -107,15 +109,7 @@ nav > ul > li >a:hover, nav > ul >li > a:active {
 }
 
 /* List Styles */
-article#about_tss ul li:first-of-type {
-   list-style-image: url(runicon.png);
-}
-article#about_tss ul li:first-of-type(2) {
-   list-style-image: url(bikeicon.png);
-}
-article#about_tss ul li:first-of-type {
-   list-style-image: url(swimicon.png);
-}
+
 
 article.syllabus ol {
    list-style-type: upper-roman;
@@ -141,12 +135,19 @@ text-align: center;
 
 }
 
+/* Image Styles */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+img {
+  width: 300px; 
+  height: auto;
+}
 
-
-
-
-
-
+  
 
 
 
