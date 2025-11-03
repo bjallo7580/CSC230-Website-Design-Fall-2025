@@ -125,3 +125,9 @@ address {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+dt {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.4);
+}
