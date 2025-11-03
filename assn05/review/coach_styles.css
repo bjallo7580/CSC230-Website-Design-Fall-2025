@@ -33,7 +33,12 @@ body {
 
 
 /* Heading Styles */
-
+h1 {
+  font-family: Nobile, Verdana, Geneva, sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
 
 
 /* Blockquote Styles */
