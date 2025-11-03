@@ -88,7 +88,14 @@ nav > ul {
 
 /* Footer Styles */
 
+body > footer address {
+background-color: rgb(222, 128, 60);
+color:white; color: rgba(255, 255, 255, 0.7);
+font: normal small-capsbold0.9em/3em
+   Quicksand, Verdana, Genava,sans-serif;
+text-align: center;
 
+}
 
 
 
