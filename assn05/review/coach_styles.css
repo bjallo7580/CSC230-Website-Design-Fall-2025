@@ -53,7 +53,12 @@ article.coach_bio h2 {
 
 /* Blockquote Styles */
 
-
+aside blockquote::before {
+  content: '\201c'; 
+  font-weight: bold;
+  font-size: 1.6em;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 
 /* Navigation Styles */	
