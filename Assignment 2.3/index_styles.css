@@ -6,9 +6,6 @@
  }
 
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Personal project
-   
    My Index Page Style Sheet
    Author: Bubacarr Jallow
    Date:   11/3/2025
@@ -16,8 +13,6 @@
    Filename: index_styles.css
 
 */
-
-
 
 /* HTML and Body Styles */
 
@@ -48,7 +43,6 @@ h2 {
 }
 
 
-
 h1 {
    color: white;
    background-color: rgb(222, 128, 60);
@@ -62,28 +56,7 @@ h2 {
 
 
 /* Aside and Blockquote Styles */
-aside {
-   font-size: 0.8em;
-}
 
-aside blockquote {
-   color: rgb (232, 165, 116);
-   margin: 20px 5px;
-   quotes: "\201C" "\201D";
-}
-
-aside blockquote::before {
-   content: open-quote;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 1.6em;
-   font-weight: bold;
-}
-aside blockquote::after {
-   content: open-quote;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 1.6em;
-   font-weight: bold;
-}
 
 /* Navigation Styles */	
 nav {
@@ -106,22 +79,9 @@ nav > ul > li >a:link, nav > ul >li > a:visited {
 nav > ul > li >a:hover, nav > ul >li > a:active {
    color: rgb(255, 64, 255);
    text-decoration: underline;
-}
+ }
 
 /* List Styles */
-
-
-article.syllabus ol {
-   list-style-type: upper-roman;
-}
-
-article.syllabus ol ol {
-   list-style-type: upper-alpha;
-}
-
-article.syllabus ol ol ol {
-   list-style-type: decimal;
-}
 
 
 /* Footer Styles */
@@ -148,9 +108,6 @@ img {
 }
 
   
-
-
-
 
 
 
