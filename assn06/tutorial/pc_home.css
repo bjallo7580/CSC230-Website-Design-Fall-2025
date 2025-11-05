@@ -81,3 +81,12 @@ footer > section#contactInfo {
    float: left;
    width: 34%;
 }
+footer {
+   background-color: rgb(71, 52, 29);
+   clear: left;
+}
+footer::after {
+   clear: both;
+   content: "";
+   display: table;
+}
