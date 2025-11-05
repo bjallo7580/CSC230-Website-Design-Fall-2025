@@ -52,9 +52,3 @@ section > h1 {
    grid-area: 1/1/2/3;
 }
 
-body > * {
-   outline: 2px dashed red;
-}
-section > * {
-   outline: 2px dashed blue;
-}
