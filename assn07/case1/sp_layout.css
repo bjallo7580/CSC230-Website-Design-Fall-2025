@@ -63,7 +63,11 @@ nav {
   grid-column: span 4; 
 }
 
-
+.horizontal-nav li {
+  display: block;
+  width: 12.5%;
+  float: left;
+}
 
 /* Topics Styles */
 
