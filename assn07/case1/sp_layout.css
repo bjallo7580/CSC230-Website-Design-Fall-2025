@@ -100,8 +100,16 @@ aside {
 
 /* aside element Styles*/
 aside {
-  grid-column: span 2; /* Spans across 2 columns */
+  grid-column: span 2; 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
 }
+
+aside:nth-of-type(odd) {
+ 
+  justify-self: end; 
+}
+
 
 /* Footer Styles */
 nav { 
