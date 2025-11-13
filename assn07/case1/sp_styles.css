@@ -14,13 +14,29 @@
 /* Window and Body Styles */
 html {
    background-color: rgb(230, 182, 144);
+   height: 100%;
+}
 }
 
 body {
    background-color: rgb(250, 238, 218);
    font-family: Verdana, Geneva, Arial, sans-serif; 
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   margin: 0 auto;
+   min-height: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+img {
+  display: block;
+}
+#logo {
+  width: 100%;
+  grid-column: span 3;
+}
 
 
 /* Page Header Styles */
@@ -43,7 +59,17 @@ body > header > nav a:link, body > header > nav:visited {
 body > header > nav a:hover, body > header > nav:active {
    background-color: rgba(0, 0, 0, 0.2);
 }
+/* Psection Styles */
+section img {
+  width: 50%;
+  display: block; 
+  margin: 0 auto;
+}
 
+section p {
+  width: 70%;
+  margin: 0 auto;
+}
 
 /* Horizontal Navigation List Styles */
 
@@ -54,6 +80,7 @@ nav.horizontal ul li {
    text-align: center;     
 }
 
+
 nav.horizontal a:link, nav.horizontal a:visited {
    color: rgb(250, 238, 218);
 }
@@ -61,7 +88,41 @@ nav.horizontal a:link, nav.horizontal a:visited {
 nav.horizontal a:hover, nav.horizontal a:active {
    color: rgb(255, 255, 64);
 }
+.horizontal-nav li {
+  display: block;
+  width: 12.5%;
+  float: left;
+}
+nav { 
+  grid-column: span 4; 
+}
 
+
+/* aside Styles */
+
+
+
+aside {
+  grid-column: span 2; 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+}
+
+aside:nth-of-type(odd) {
+  justify-self: end; 
+}
+
+aside img {
+  float: left;
+  width: 20%;
+  margin-right: 10px; 
+  margin-bottom: 10px;
+}
+aside p {
+  float: left;
+  width: 75%;
+  margin-left: 5%;
+}
 
 /* Topics Styles */
    ul#topics {
@@ -78,6 +139,11 @@ ul#topics li p {
 
 
 /* Customer Comment Styles */
+aside {
+  width: 75%;
+  padding-bottom: 30px;
+}
+
 
 
 ul#comments li p {

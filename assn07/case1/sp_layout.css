@@ -14,46 +14,12 @@
 */
 
 /* Window and Body Styles */
+
 html {
    height: 100%;
 }
 
-html {
-  height: 100%;
-}
-body {
-  width: 95%;
-  min-width: 640px;
-  max-width: 960px;
-  min-height: 100%;
-  margin: 0 auto;
-}
 
-img {
-  display: block;
-}
-
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-#logo {
-  width: 100%;
-  grid-column: span 3;
-}
-
-/* Section Styles */
-section img {
-  width: 50%;
-  display: block; 
-  margin: 0 auto;
-}
-
-section p {
-  width: 70%;
-  margin: 0 auto;
-}
 
 /* Row Styles */
 
@@ -69,15 +35,9 @@ section p {
 
 
 /* Horizontal Navigation List Styles */
-nav { 
-  grid-column: span 4; 
-}
 
-.horizontal-nav li {
-  display: block;
-  width: 12.5%;
-  float: left;
-}
+
+
 
 /* Topics Styles */
 
@@ -92,35 +52,9 @@ nav {
 
 
 /* Customer Comment Styles */
-aside {
-  width: 75%;
-  padding-bottom: 30px;
-}
 
-
-/* aside element Styles*/
-aside {
-  grid-column: span 2; 
-  display: grid; 
-  grid-template-columns: repeat(2, 1fr); 
-}
-
-aside:nth-of-type(odd) {
- 
-  justify-self: end; 
-}
-
-aside img {
-  float: left;
-  width: 20%;
-  margin-right: 10px; 
-  margin-bottom: 10px;
-}
 
 
 /* Footer Styles */
-nav { 
-  grid-column: span 4; 
-}
 
 
