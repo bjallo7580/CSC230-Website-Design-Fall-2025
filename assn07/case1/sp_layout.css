@@ -50,6 +50,11 @@ section img {
   margin: 0 auto;
 }
 
+section p {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* Row Styles */
 
 
