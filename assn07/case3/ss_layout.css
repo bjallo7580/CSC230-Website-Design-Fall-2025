@@ -44,7 +44,10 @@ p:first-of-type:first-letter {
 
 /* Aside Styles */
 
-
+aside {
+   width: 768px;
+   float: left;
+}
 
 
 /* Map Styles */
