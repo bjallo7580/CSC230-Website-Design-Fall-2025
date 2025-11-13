@@ -38,6 +38,10 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+#logo {
+  width: 100%;
+  grid-column: span 3;
+}
 /* Row Styles */
 
 
