@@ -20,7 +20,18 @@ figure{
    margin: 20px auto 0px;
    width: 80%;
 }
-
+figure img {
+   display: block;
+   width: 100%;
+}
+figure figcaption {
+   background-color: white;
+   font-family: 'palatino Linotype', Palatino,
+   'Times New Roman', Times, serif;
+   font-style: italic;
+   padding: 10px 0;
+   text-align: center;
+}
 
 /* HTML Styles */
 
