@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Bubacarr Jallow
+   Date:     11/25/25
    
    Filename: tf_flex.css
    
@@ -20,7 +20,10 @@
    Base Flex Styles
    ================
 */
-
+body {
+   display: flex;
+   flex-flow: row wrap;
+}
 
 
 
