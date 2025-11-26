@@ -61,5 +61,10 @@ body > footer {
 */
 
 @media screen and (min-width: 481px) {
-  
+  nav.horizontal ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 40px;
+  }
 }
