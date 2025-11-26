@@ -47,7 +47,11 @@ body {
   width: 100%;
   height: auto; 
 }
-
+@media screen and (max-width: 768px) { 
+  nav.horizontal {
+    order: 99;
+  }
+}
 
 /* ===================================================
 	Tablet and Desktop Devices: Greater than 480 pixels
