@@ -69,4 +69,25 @@ nav.horizontal ul li {
     flex-wrap: nowrap;
     height: 40px;
   }
+   /* Set the width of size1 img elements to 100%. */
+  .size1 img {
+    width: 100%;
+  }
+
+  /* Set the width of size2 img elements to 60%. */
+  .size2 img {
+    width: 60%;
+  }
+
+  /* Set the width of size3 img elements to 40%. */
+  .size3 img {
+    width: 40%;
+  }
+
+  /* Set the width of size4 img elements to 30%. */
+  .size4 img {
+    width: 30%;
+  }
 }
+
+
