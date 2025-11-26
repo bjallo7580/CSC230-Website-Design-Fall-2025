@@ -83,6 +83,7 @@ nav.horizontal li a:hover, nav.horizontal li a:active {
 
 article {
 	padding: 10px;
+	flex: 1 3 180px;
 }
 	
 article h1 {
@@ -100,10 +101,14 @@ article p {
 
 /* Comic Book Sheet Styles */
 
+
 section#sheet {
 	border: 1px solid rgb(101, 101, 101);
 	background-color: white;
 	padding: 10px 10px 0px 10px;
+	 flex-grow: 3;
+  flex-shrink: 1;
+  flex-basis: 301px;
 }	
 
 section#sheet h1 {
