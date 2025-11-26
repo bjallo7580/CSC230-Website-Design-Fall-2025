@@ -29,7 +29,9 @@ body {
 body > footer {
   order: 100;
 }
-
+nav.horizontal ul li {
+  flex: 1 1 auto;
+}
 
 
 /* ============================================
