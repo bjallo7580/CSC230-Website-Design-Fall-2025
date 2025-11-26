@@ -22,7 +22,10 @@
 @import url("gp_designs.css");
 
 /* Flex Layout Styles */
-
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 
 
@@ -31,7 +34,15 @@
 	Mobile Devices: 0 - 480 pixels
    ============================================
 */
-
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
 
 
 
