@@ -28,6 +28,11 @@ th, td {
   padding: 8px;
 }
 
+td {
+  color: white;
+  font-size: 0.9em;
+  vertical-align: top; 
+}
 
 th {
   background-color: black;
@@ -36,11 +41,7 @@ th {
 }
 
 
-td {
-  color: white;
-  font-size: 0.9em;
-  vertical-align: top; 
-}
+
 
 /* Column Styles */
 col#firstCol {
