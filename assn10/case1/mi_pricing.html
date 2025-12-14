@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" type="text/css" href="mi_tables.css">
+  
+
+    <link rel="stylesheet" type="text/css" href="mi_tables.css">
+    <link rel="stylesheet" type="text/css" href="mi_styles.css">
+    <link rel="stylesheet" type="text/css" href="mi_reset.css">
    <!--
       New Perspectives on HTML5 and CSS3, 7th Edition
       Tutorial 6
@@ -48,16 +52,12 @@
          (personal help is <em>always</em> on the line), free security tools, email accounts
          for the whole family, and exclusive online content.</p>
          
-          <table id="pricing">
-           
-            <!-- The colgroup element is added here -->
-  <colgroup>
-    <!-- The first col element with ID firstCol -->
-    <col id="firstCol">
-    <!-- The second col element with class dataCols and a span of 4 -->
-    <col class="dataCols" span="4">
-  </colgroup>
-  <!-- Table headers and data would follow below this point -->
+ <table id="pricing">
+   <colgroup>
+      <col id="firstCol">
+      <col class="dataCols" span="4">
+   </colgroup>
+  
   <thead>
     <!-- First row of the thead -->
      
@@ -75,51 +75,55 @@
       <th>$49.95<br>per month</th>
       <th>$69.95<br>per month</th>
     </tr>
-<tbody>
-    <th rowspan="1">Download Speed</th>
+    </thead>
+    <tbody>
+   <tr>
+    <th>Download Speed</th>
       <th>15 Mbps</th>
       <th>30 Mbps</th>
       <th>50 Mbps</th>
       <th>100 Mbps</th>
     </tr>
     
-    
-    <th rowspan="1">Upload Speed</th>
+    <tr>
+    <th>Upload Speed</th>
       <th>3 Mbps</th>
       <th>6 Mbps</th>
       <th>10 Mbps</th>
       <th>20 Mbps</th>
     </tr>
-<th rowspan="1">Cloud Storage</th>
+    <tr>
+<th>Cloud Storage</th>
       <th>2 GB</th>
       <th>5 GB</th>
       <th>15 GB</th>
       <th>40 GB</th>
     </tr>
-<th rowspan="1">E-mail Accounts</th>
+    <tr>
+<th>E-mail Accounts</th>
       <th>2 Accounts</th>
       <th>3 Accounts</th>
       <th>5 Accounts</th>
       <th>10 Accounts</th>
     </tr>
-    
-<th rowspan="1">24/7 Support</th>
+ <tr>   
+<th>24/7 Support</th>
       <th>Yes</th>
       <th>Yes</th>
       <th>Yes</th>
       <th>Yes</th>
     </tr>
-<tfoot>
+    </tbody> 
+   <tfoot>
+
     <tr>
-    <th rowspan="1">Summary</th>
+    <th>Summary</th>
       <td>Just the speed you need to send emails, download map directions, and search the Internet for restaurant reviews.</td>
       <td>A great speed at a great price for the family: kids can play games, adults can pay bills, and everyone can surf at the same time.</td>
       <td>Super speeds for multiple tasks that require more broadband capacity; ideal for gamers who need fast response times.</td>
       <td>Perfect for a small business running multiple media streams, demanding reduced lag time and fast data delivery.</td>
     </tr>
-   </tfoot>
-  </tbody>
-  </thead>
+</tfoot> 
  </table>
       
    </article>
