@@ -15,14 +15,38 @@
 
 /* Table Styles */
 table {
-  background: linear-gradient(to bottom, rgb(190, 215, 255), black); /* Linear gradient to the bottom */
+  
+  background-image: linear-gradient(to bottom, rgb(190, 215, 255), black);
   border: 5px solid gray;
 }
 
 
+th, td {
+  border: 1px solid #ccc; 
+  padding: 8px;
+}
+
+
+th {
+  background-color: black;
+  color: rgb(130, 210, 255); 
+  font-weight: normal;
+}
+
+td {
+  color: white; 
+  font-size: 0.9em; 
+  vertical-align: top; 
+}
+
 /* Column Styles */
+#firstCol {
+  width: 24%;
+}
 
-
+col.dataCols {
+  width: 19%;
+}
 
 /* Table Header Styles */
 
