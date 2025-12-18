@@ -37,7 +37,7 @@ body {
 header {
     /* The background color of the header should be the same as the <nav> area.
        We will define the <nav> background color first and use it here. */
-    background-color: #004d40; /* A dark teal color for nav and header */
+    background-color: #3d3f47; /* A dark teal color for nav and header */
     color: white; /* Ensure text is visible on dark background */
     overflow: auto; /* Contain floating elements within the header */
     padding-bottom: 15px; /* Add some space at the bottom */
@@ -49,9 +49,9 @@ nav {
        background color (same as header), padding 20px, text alignment. */
     float: left;
     width: 20%;
-    min-height: 600px;
+    min-height: 1067px;
     font-size: 14px;
-    background-color: #004d40; /* Dark teal background */
+    background-color: #4cf44c; /* Dark teal background */
     padding: 20px;
     color: white;
     text-align: center; /* Example alignment */
@@ -121,7 +121,11 @@ h1 {
     padding: 15px 0px 0px 15px;
     /* Color: a dark color that will contrast the <section> background */
     color: #004d40; /* Dark teal to match nav/header */
-}
+    color: white;
+   background-color: rgb(222, 128, 60);
+  
+/* h1 styles */
+
 
 /* h3 styles */
 h3 {
