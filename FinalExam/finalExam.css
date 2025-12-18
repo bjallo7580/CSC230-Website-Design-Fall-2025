@@ -6,7 +6,7 @@
    Reuired files: none
    ----------------------------------------------------------- */
 
-/* Set a consistent box model for easier layout calculations */
+
 * {
     box-sizing: border-box;
 }
@@ -15,7 +15,7 @@
    Body Styles
    ----------------------------------------------------------- */
 body {
-    /* Fonts: all fonts should be of the sans-serif family */
+    
     font-family: Verdana, Tahoma, Helvetica, sans-serif;
     /* Text color and size */
     color: black;
@@ -49,7 +49,7 @@ nav {
        background color (same as header), padding 20px, text alignment. */
     float: left;
     width: 20%;
-    min-height: 1067px;
+    min-height: 1252px;
     font-size: 14px;
     background-color: #4cf44c; /* Dark teal background */
     padding: 20px;
