@@ -1,0 +1,193 @@
+/* -----------------------------------------------------------
+   File: finalExam.htm
+   Author: Bubacarr Jallow
+   Date: 12/17/2025
+   Description: Page Final Exam CSS page.
+   Reuired files: none
+   ----------------------------------------------------------- */
+
+/* Set a consistent box model for easier layout calculations */
+* {
+    box-sizing: border-box;
+}
+
+/* -----------------------------------------------------------
+   Body Styles
+   ----------------------------------------------------------- */
+body {
+    /* Fonts: all fonts should be of the sans-serif family */
+    font-family: Verdana, Tahoma, Helvetica, sans-serif;
+    /* Text color and size */
+    color: black;
+    font-size: 16pt;
+    /* Layout: width 85% with auto margins */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    /* Background: a dark color */
+    background-color: #333333; /* Dark gray background */
+}
+
+/* -----------------------------------------------------------
+   Header, Navigation, Section, and Footer Definitions (General Layout)
+   ----------------------------------------------------------- */
+
+/* <header>: Contains name, degree program, quarter, and picture.
+   Picture needs to be right-aligned within this section. */
+header {
+    /* The background color of the header should be the same as the <nav> area.
+       We will define the <nav> background color first and use it here. */
+    background-color: #004d40; /* A dark teal color for nav and header */
+    color: white; /* Ensure text is visible on dark background */
+    overflow: auto; /* Contain floating elements within the header */
+    padding-bottom: 15px; /* Add some space at the bottom */
+}
+
+/* <nav>: The left side of the content area. Needs to be a specific width and height/min-height. */
+nav {
+    /* Specifics for the nav: left side, 20% width, min-height 600px, font size 14px,
+       background color (same as header), padding 20px, text alignment. */
+    float: left;
+    width: 20%;
+    min-height: 600px;
+    font-size: 14px;
+    background-color: #004d40; /* Dark teal background */
+    padding: 20px;
+    color: white;
+    text-align: center; /* Example alignment */
+}
+
+/* <section>: The right side of the content area. Needs to be a specific width and height/min-height. */
+section {
+    /* Specifics for the section: right side, 80% width, min-height 600px, font size 14px,
+       background color (contrasting), padding 20px, text alignment. */
+    float: right;
+    width: 80%;
+    min-height: 600px;
+    font-size: 14px;
+    background-color: #f0f0f0; /* Light gray background for contrast */
+    padding: 20px;
+    color: black;
+    /* We choose a light background so the h1 and h3 colors defined below will contrast */
+}
+
+/* <footer>: The bottom of the content area. Clear the floats above it. */
+footer {
+    clear: both; /* Clear floats from <nav> and <section> */
+    background-color: #004d40; /* Match header/nav color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+/* -----------------------------------------------------------
+   Header Tag Styles (for h1 and h3 within the <header> element)
+   ----------------------------------------------------------- */
+
+/* h1 tag within the header */
+header h1 {
+    font-size: 36pt;
+    /* Margin: 35px at the top and 0px everywhere else (top, right, bottom, left) */
+    margin: 35px 0px 0px 0px;
+    /* Padding: 15px top and left and zero right and bottom (top, right, bottom, left) */
+    padding: 15px 0px 0px 15px;
+    /* Background color should be set the same as the <nav> area (already set on header parent) */
+    /* text color is inherited from header parent */
+}
+
+/* h3 tag within the header */
+header h3 {
+    font-size: 24pt; /* Changed from "pts" to "pt" for correct CSS unit */
+    margin: 0px;
+    /* Padding: 15px bottom and left and 0px top and right (top, right, bottom, left) */
+    padding: 0px 0px 15px 15px;
+    /* Background color should be set the same as the <nav> area (already set on header parent) */
+    /* text color is inherited from header parent */
+}
+
+/* -----------------------------------------------------------
+   Main Content Heading Styles (for h1 and h3 within the <section> element)
+   ----------------------------------------------------------- */
+
+/* h1 styles */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    /* Padding: 15px 0px 0px 15px (top, right, bottom, left) */
+    padding: 15px 0px 0px 15px;
+    /* Color: a dark color that will contrast the <section> background */
+    color: #004d40; /* Dark teal to match nav/header */
+}
+
+/* h3 styles */
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    text-align: left;
+    /* Color: a color that is different than your h1 and will contrast the <section> background */
+    color: #d9534f; /* A contrasting color (reddish tone) */
+}
+
+/* -----------------------------------------------------------
+   Paragraph and Anchor Tag Styles
+   ----------------------------------------------------------- */
+
+/* Paragraph styles */
+p {
+    /* Margins set to 15px and padding set to 15px */
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Anchor tag (hyperlink) styles */
+a:link, a:visited {
+    /* Remove the underline for all hyperlinks */
+    text-decoration: none;
+    color: #004d40; /* Default link color (match header color) */
+}
+
+/* Anchor tag hover state */
+a:hover {
+    /* Changes color when you hover over the text */
+    color: #d9534f; /* Change to the red color on hover */
+    text-decoration: underline; /* Optional: add underline on hover */
+}
+
+/* -----------------------------------------------------------
+   Table Styles
+   ----------------------------------------------------------- */
+
+table {
+    border: none; /* No border */
+    border-collapse: collapse; /* Collapse borders for cleaner look */
+    width: 90%;
+    margin-left: 30px; /* Left margin should be 30px */
+}
+
+/* Apply padding to table data (td) and header (th) cells */
+th, td {
+    /* Cell padding: 5px left and right and 2px top and bottom (top/bottom, left/right) */
+    padding: 2px 5px;
+    border: 1px solid #ccc; /* Add a light border to cells for readability */
+}
+
+/* -----------------------------------------------------------
+   Image Style (for the picture in the <header>)
+   ----------------------------------------------------------- */
+/* Assuming the image has a class like "profile-pic" or an ID like "header-img"
+   or we can target it specifically if it's the only <img> in the <header>. */
+header img {
+    /* Right aligned in the <header> section */
+    float: right;
+    /* No larger than 300 X 300 */
+    max-width: 300px;
+    max-height: 300px;
+    /* Image should not be stretched - max-width/height helps with this. */
+    /* Add some margin so it doesn't touch the text */
+    margin: 10px 15px 10px 15px;
+    /* It should look normal, the alt attribute is set in HTML */
+}
